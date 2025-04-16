@@ -9,7 +9,7 @@ Document Title 	File Maestro - User Guide
 Version Number 	1
  
 Document Author 
-Author 	Alex Smith
+Author 	Smudger
 
 App Creator	Smudger
 Website	XXXXXXXXXXXXX
