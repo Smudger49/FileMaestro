@@ -1,0 +1,69 @@
+# Privacy Policy for File Maestro
+
+**Effective Date:** [Date - e.g., April 16, 2025]
+
+This Privacy Policy describes how File Maestro ("we," "us," or "our") handles information when you use the File Maestro application (the "App"). File Maestro is developed by [Your Name/Company Name].
+
+**1. Introduction**
+
+File Maestro is a desktop application designed to help you automatically organize and manage files on your local computer based on rules you create. Your privacy is important to us. This policy explains what information the App accesses and stores, and how that information is used.
+
+**This App operates entirely locally on your device. It does NOT collect, store, or transmit any of your personal information or file data to us or any third party over the internet.**
+
+**2. Information We Access**
+
+To perform its functions, File Maestro requires access to parts of your file system, but **only the folders you explicitly choose to monitor**. When operating on these user-selected folders, the App may access:
+
+* **Folder Paths:** The paths to the folders you designate for monitoring.
+* **File Paths and Names:** The paths and names of files within the monitored folders (and subfolders, if you enable that option) to evaluate rules.
+* **File Metadata:** Information about files such as size, creation date, modification date, access date, and file attributes.
+* **File Tags/Keywords:** Reads existing tags/keywords associated with files (for supported file types) when evaluating rules using "Has Tag" or "Does Not Have Tag" conditions.
+* **File Content (Implicitly for Tagging):** When using the "Add Tag" action, the App interacts with the Windows operating system to write tags to supported file types. This may implicitly involve reading or modifying parts of the file structure where metadata is stored, but the App does not read the primary content (like the text of a document or the image data of a photo) for other purposes.
+
+**3. Information We Store (Locally Only)**
+
+File Maestro stores its configuration and operational logs entirely on your local device within your user profile's application data folder (`%LOCALAPPDATA%\FileMaestro`). This stored information includes:
+
+* **Monitored Folder Paths:** The list of folders you have configured the App to watch.
+* **Rule Definitions:** The rules you create, including the conditions (types, values, match case settings), actions, action parameters (like destination paths or rename patterns), and tag settings (`ShouldAddTag`, `TagToAdd`).
+* **Application Settings:** Currently includes the setting for whether monitoring should start automatically on launch (`StartMonitoringOnLaunch`).
+* **Log Files:** The App generates local log files containing information about its operations (monitoring start/stop, files processed, actions taken, errors encountered) for troubleshooting purposes.
+
+**No personal information or configuration data is transmitted off your device by the App.**
+
+**4. How We Use Information**
+
+The information accessed and stored by File Maestro is used solely for the following purposes:
+
+* **To operate the core functionality of the App:** Monitoring designated folders, evaluating rules against files based on user-defined criteria, and performing the specified actions (Move, Copy, Rename, Recycle, Delete, Tag).
+* **To save and load your configuration:** Persisting your monitored folders, rules, and settings between application sessions.
+* **For logging and troubleshooting:** Recording operational details and errors to help diagnose issues.
+
+**5. Information Sharing and Disclosure**
+
+**We do not share, sell, rent, or transmit any of your personal information, file data, or configuration data with any third parties.** All processing occurs locally on your device.
+
+**6. Data Security**
+
+We take reasonable precautions to protect the configuration data stored locally by the App. The data is stored within your standard user application data folder, which relies on the security measures provided by the Windows operating system. However, no method of electronic storage is 100% secure, and we cannot guarantee its absolute security. You are responsible for the security of your own device and user account.
+
+**7. User Choices and Control**
+
+* You have full control over which folders the App monitors. You can add or remove folders at any time.
+* You have full control over the rules you create, including the criteria and actions. You can add, edit, disable, or delete rules at any time.
+* You can manually delete the application's settings file (`settings.json`) and log files located in `%LOCALAPPDATA%\FileMaestro` if you wish to reset the configuration or remove logs.
+* You can uninstall the application at any time using standard Windows procedures (Settings -> Apps -> Apps & features). Uninstalling the application may leave the settings and log files behind unless you manually delete them or the uninstaller handles it.
+
+**8. Children's Privacy**
+
+The App is not intended for use by children under the age of 13 (or the relevant age according to applicable law). We do not knowingly collect any personal information from children.
+
+**9. Changes to This Privacy Policy**
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App or on our website (if applicable). You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted.
+
+**10. Contact Us**
+
+If you have any questions about this Privacy Policy, please contact us via the store page
+
+---
